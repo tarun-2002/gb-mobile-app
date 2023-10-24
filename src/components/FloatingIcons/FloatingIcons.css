@@ -1,0 +1,80 @@
+.floating-icons {
+    position: absolute;
+    top: 78%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+   }
+  
+  .floating-icons a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+    margin: 0 10px;
+   
+  }
+  
+  .floating-icons a:hover {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.floating-icons .link {
+  box-shadow: 2px 2px 5px #0002;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.floating-icons .link:hover {
+  transform: scale(1.2);
+}
+
+.floating-icons .link.youtube {
+  background-color: #d44747;
+}
+
+.floating-icons .link.facebook {
+  background-color: #3b5998;
+}
+
+.floating-icons .link.instagram {
+  background-color: #f7af45;
+}
+
+.floating-icons .link.twitter {
+  background-color: #00acee;
+}
+.social-icons{
+    width: 2rem;
+    height: 2rem;
+}
+.social-icons1{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
